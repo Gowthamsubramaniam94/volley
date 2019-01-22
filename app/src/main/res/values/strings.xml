@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Volley</string>
+
+    <string name="progress_loading">Loading...</string>
+
+    <string name="webservice_url">http://www.google.com/history.php?</string>
+</resources>
