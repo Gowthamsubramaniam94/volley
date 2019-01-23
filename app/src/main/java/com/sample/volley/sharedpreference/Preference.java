@@ -1,4 +1,4 @@
-package com.angler.volley.sharedpreference;
+package com.sample.volley.sharedpreference;
 
 import android.content.Context;
 import android.content.SharedPreferences;

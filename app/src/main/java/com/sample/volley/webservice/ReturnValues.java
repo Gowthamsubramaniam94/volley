@@ -1,4 +1,4 @@
-package com.angler.volley.webservice;
+package com.sample.volley.webservice;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -34,6 +34,15 @@ public class ReturnValues implements Serializable {
         public String Id = "";
         public String userId = "";
         public String description = "";
+
+        public void Id(String service_id) {
+        }
+
+        public void userId(String type) {
+        }
+
+        public void description(String service_details) {
+        }
     }
 
     public ArrayList<SampleList> mySampleList = new ArrayList<>();

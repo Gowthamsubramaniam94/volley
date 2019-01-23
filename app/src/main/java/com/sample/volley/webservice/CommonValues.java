@@ -1,10 +1,16 @@
-package com.angler.volley.webservice;
+package com.sample.volley.webservice;
 
 import android.graphics.Color;
 
+import static com.sample.volley.R.raw.app;
+
 public interface CommonValues {
 
-    String APP_NAME = "EO SouthAsia";
+    String APP_NAME = "Volley";
+
+    String DATABASE_NAME = "app.db";
+
+    int DB_RAW_RESOURCES_ID = app;
 
     int ALERT_SUCCESS = Color.parseColor("#4CAF50");
 
@@ -22,6 +28,8 @@ public interface CommonValues {
 
     String WHATS_APP_NOT_INSTALLED = "WhatsApp is not Installed in your Device";
 
+    int DELAY_TIME_FOR_SPLASH_SCREEN = 4500;
+
     String RESPONSE_CODE_SUCCESS = "1";
 
     String RESPONSE_CODE_FAILURE = "0";
@@ -32,7 +40,6 @@ public interface CommonValues {
     String COMMON_RESPONSE_STRING = "response";
 
     String COMMON_RESPONSE_CODE = "response_code";
-
 
 
     // Jun 04,2014

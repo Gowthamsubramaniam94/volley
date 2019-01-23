@@ -1,4 +1,4 @@
-package com.angler.volley.app;
+package com.sample.volley.app;
 
 import android.graphics.Bitmap;
 import android.support.v4.util.LruCache;

@@ -1,29 +1,18 @@
-package com.angler.volley.webservice;
+package com.sample.volley.webservice;
 
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.util.Base64;
 import android.util.Log;
 
 import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
-import com.android.volley.toolbox.HttpResponse;
 import com.android.volley.toolbox.StringRequest;
-import com.angler.volley.ApplicationClass;
-import com.angler.volley.R;
-import com.angler.volley.sharedpreference.Preference;
+import com.sample.volley.ApplicationClass;
+import com.sample.volley.R;
+import com.sample.volley.sharedpreference.Preference;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.util.ArrayList;
 
 import static com.android.volley.Request.Method.GET;
 

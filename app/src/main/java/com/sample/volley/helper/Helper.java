@@ -1,4 +1,4 @@
-package com.angler.volley.helper;
+package com.sample.volley.helper;
 
 import android.app.Activity;
 import android.content.ContentProviderOperation;
@@ -26,8 +26,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.angler.volley.R;
-import com.angler.volley.webservice.CommonValues;
+import com.sample.volley.R;
+import com.sample.volley.webservice.CommonValues;
 import com.nispok.snackbar.Snackbar;
 import com.nispok.snackbar.SnackbarManager;
 import com.nispok.snackbar.enums.SnackbarType;

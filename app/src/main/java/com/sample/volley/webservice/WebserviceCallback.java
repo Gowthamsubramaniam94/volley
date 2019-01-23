@@ -1,4 +1,4 @@
-package com.angler.volley.webservice;
+package com.sample.volley.webservice;
 
 public interface WebserviceCallback {
 

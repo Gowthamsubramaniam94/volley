@@ -1,4 +1,4 @@
-package com.angler.volley;
+package com.sample.volley.screens;
 
 import android.app.Activity;
 import android.content.Context;
@@ -8,15 +8,16 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.ImageView;
 
-import com.angler.volley.NetworkManager.NetworkManager;
-import com.angler.volley.Utilities.ProgressDialog;
-import com.angler.volley.adapter.RecyclerViewAdapter;
-import com.angler.volley.helper.EndlessRecyclerViewScrollListener;
-import com.angler.volley.helper.Helper;
-import com.angler.volley.webservice.CommonValues;
-import com.angler.volley.webservice.ReturnValues;
-import com.angler.volley.webservice.Webservice;
-import com.angler.volley.webservice.WebserviceCallback;
+import com.sample.volley.NetworkManager.NetworkManager;
+import com.sample.volley.R;
+import com.sample.volley.Utilities.ProgressDialog;
+import com.sample.volley.adapter.RecyclerViewAdapter;
+import com.sample.volley.helper.EndlessRecyclerViewScrollListener;
+import com.sample.volley.helper.Helper;
+import com.sample.volley.webservice.CommonValues;
+import com.sample.volley.webservice.ReturnValues;
+import com.sample.volley.webservice.Webservice;
+import com.sample.volley.webservice.WebserviceCallback;
 
 import java.util.ArrayList;
 

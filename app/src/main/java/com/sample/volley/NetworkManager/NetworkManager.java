@@ -1,4 +1,4 @@
-package com.angler.volley.NetworkManager;
+package com.sample.volley.NetworkManager;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

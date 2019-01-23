@@ -1,4 +1,4 @@
-package com.angler.volley.fragmentmanager;
+package com.sample.volley.fragmentmanager;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
 
-import com.angler.volley.R;
+import com.sample.volley.R;
 
 public class FragmentManager {
     private FragmentActivity myContext;

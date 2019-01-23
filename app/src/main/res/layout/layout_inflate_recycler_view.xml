@@ -19,12 +19,6 @@
             android:orientation="horizontal"
             android:padding="5dp">
 
-            <com.showtime.eosouthasia.utilities.RTCCircularImageView
-                android:id="@+id/inflate_biz_feed_user_image"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/ic_account_circle" />
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

@@ -1,4 +1,4 @@
-package com.angler.volley.Utilities;
+package com.sample.volley.Utilities;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.angler.volley.R;
+import com.sample.volley.R;
 
 
 public class ProgressDialog extends Dialog {
